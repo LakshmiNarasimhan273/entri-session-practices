@@ -20,6 +20,8 @@ function Navbar() {
           </Link>
 
           <Link to="/tensorflow">Image Classifier</Link>
+
+          <Link to="/comment">Comments</Link>
         </div>
       </div>
     </nav>

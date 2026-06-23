@@ -6,6 +6,7 @@ import Orders from './pages/Orders'
 import Errors from './pages/Errors'
 import Navbar from './components/Navbar'
 import ImageClassifier from './pages/Tensorflow'
+import ToxicDetector from './pages/CommentPredictor'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/products" element={<Products />} />
         <Route path="/orders" element={<Orders />} />
         <Route path='/tensorflow' element={<ImageClassifier />} />
+        <Route path='/comment' element={<ToxicDetector />} />
         <Route path="*" element={<Errors />} />
       </Routes>
     </BrowserRouter>
